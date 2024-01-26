@@ -1,0 +1,187 @@
+*{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+body{ 
+height: 100%;
+  }
+
+  header{
+        background-image: url(../media/fond-section-1.webp);
+height: 100vh;
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-bottom: 5%;
+  }
+
+  nav .menuEtLogo{
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .menuEtLogo i{
+    font-size: x-large;
+  }
+
+  .logo{                          /*logo dans le header et le footer*/
+    font-size: xx-large;
+    font-weight:500;
+  }
+
+  .offcanvas-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .uber{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .uber img{
+    width: 17%;
+    padding-right: 5%;
+  }
+  
+  
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .login ul{
+    display: flex;
+
+  }
+
+
+  /* header .slogan{
+    font-size: 300%;
+    font-weight: bolder;
+  
+  } */
+
+  /* .input-icone{
+    position: relative;
+    width: 200%;
+  }
+  .input-icone i{
+    position: absolute;
+    left: 0;
+    top: 6px;
+  } */
+  
+.input-group{
+  width: 35%;
+}
+
+   section{
+    margin-bottom: 5%;
+  } 
+
+  .container_images{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+.container_images img{
+  width: 95%;
+}
+
+.pCard{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+article{
+  margin-top: 5%;
+} 
+
+article .titreEtLien{
+display: flex;
+justify-content: space-between;
+}
+.photo{
+
+  width: 100%;
+}
+
+.partie1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.badges img{
+  width: 25%;
+}
+
+.reseaux ul{
+  display: flex;
+
+}
+
+/************************************************************************************
+                  MEDIAS QUERIES
+************************************************************************************/
+
+@media all and (max-width: 1480px) {  
+
+  .menuEtLogo{
+   display: flex ;
+   flex-direction: column;
+  }
+}
+
+
+@media all and (max-width: 1000px) {  
+
+ .menuEtLogo{
+  display: flex ;
+  flex-direction: column;
+ }
+  
+.login i{
+  display: none;
+}
+
+.slogan{
+    text-align: center;
+  }
+.formulaire{
+ display: flex;
+ flex-direction: column;
+}
+.input-group{
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.btn-group{
+  padding-bottom: 2%;
+  width: 100%;
+}
+.container_images{
+  flex-direction: column;
+}
+.container_images .image_paragraphe{
+  padding: 5%;
+}
+}
